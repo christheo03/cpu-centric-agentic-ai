@@ -15,7 +15,7 @@ import time
 import signal
 import argparse
 import multiprocessing as mp
-from concurrent.futures import ProcessPoolExecutor, as_completed, TimeoutError
+from concurrent.futures import ProcessPoolExecutor, as_completed, TimeoutError, ThreadPoolExecutor
 from typing import List, Dict, Any, Tuple
 import numpy as np
 from tqdm import tqdm
@@ -203,13 +203,13 @@ def benchmark_batch_throughput(problems: List[str], batch_size: int,
     
     # Use ProcessPoolExecutor for parallel processing
     # Each request runs in its own process
-    with ProcessPoolExecutor(max_workers=batch_size) as executor:
+    with ThreadPoolExecutor(max_workers=batch_size) as executor:
         # Submit all requests in the batch
         future_to_problem = {
             executor.submit(process_single_math_problem_exact, problem, model_config): problem
             for problem in selected_problems
         }
-        
+
         # Collect results with progress tracking
         # with tqdm(total=len(selected_problems), desc=f"Batch {batch_size}", leave=False) as pbar:
         for future in as_completed(future_to_problem, timeout=timeout_per_request * 2):

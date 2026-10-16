@@ -206,7 +206,8 @@ class MathToolformer:
         self.llm = VLLMOpenAI(
             base_url=base_url,
             model=model_path,
-            openai_api_key='EMPTY'
+            openai_api_key='EMPTY',
+            temperature=0,
         )
         
         self.calculator = WolframCalculator()
@@ -726,7 +727,7 @@ def evaluate_math_toolformer_performance(all_results: Dict[str, List[Dict]], par
             'initial_inference': [r['latencies']['initial_inference'] for r in results],
             'end_to_end': [r['latencies']['end_to_end'] for r in results]
         }
-        
+
         calc_latencies = []
         final_inference_latencies = []
         for r in results:
@@ -737,7 +738,7 @@ def evaluate_math_toolformer_performance(all_results: Dict[str, List[Dict]], par
         print(f"\n⏱️  Latency Analysis:")
         print(f"   Initial inference: {np.mean(dataset_latencies['initial_inference']):.2f}s avg")
         if calc_latencies:
-            print(f"   Calculations: {np.mean(calc_latencies):.3f}s avg")
+            print(f"   Calculations: {np.mean(calc_latencies):.6f}s avg")
             print(f"   Final inference: {np.mean(final_inference_latencies):.2f}s avg")
         print(f"   End-to-end: {np.mean(dataset_latencies['end_to_end']):.2f}s avg")
         
@@ -777,7 +778,7 @@ def evaluate_math_toolformer_performance(all_results: Dict[str, List[Dict]], par
     print(f"\n⏱️  Latency Statistics:")
     print(f"   Initial inference: {np.mean(all_latencies['initial_inference']):.2f}s ± {np.std(all_latencies['initial_inference']):.2f}s")
     if all_latencies['calculations']:
-        print(f"   Calculations: {np.mean(all_latencies['calculations']):.3f}s ± {np.std(all_latencies['calculations']):.3f}s")
+        print(f"   Calculations: {np.mean(all_latencies['calculations']):.6f}s ± {np.std(all_latencies['calculations']):.6f}s")
         print(f"   Final inference: {np.mean(all_latencies['final_inference']):.2f}s ± {np.std(all_latencies['final_inference']):.2f}s")
     print(f"   End-to-end: {np.mean(all_latencies['end_to_end']):.2f}s ± {np.std(all_latencies['end_to_end']):.2f}s")
     
