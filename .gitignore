@@ -31,7 +31,6 @@ huggingface/
 
 # Data files
 *.csv
-*.json
 *.jsonl
 *.parquet
 *.pkl
@@ -43,7 +42,7 @@ huggingface/
 results/
 logs/
 outputs/
-*.log
+
 
 # API keys and secrets
 .env

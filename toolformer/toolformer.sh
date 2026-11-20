@@ -81,7 +81,7 @@ echo "==============================================="
 echo "TEST 2: Running Multi-Batch Throughput Benchmark"
 echo "==============================================="
 
-python batch_toolformer.py --output ./nomaxtokens_triton_1t4.json --timeout 2800
+python batch_toolformer.py --output ./nomaxtokens_triton_1t4_4.json --timeout 2800
 
 # 8. Cluster Cleanup
 echo "==============================================="

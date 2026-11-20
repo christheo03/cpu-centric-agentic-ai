@@ -235,11 +235,11 @@ Solution:"""
         
         return prompt.format(problem=problem)
     
-    def generate_response(self, prompt: str) -> tuple[str, float]:
+    def generate_response(self, prompt: str, stop: List[str] = None) -> tuple[str, float]:
         """Generate response using VLLM"""
         start_time = time.time()
         try:
-            response = self.llm.invoke(prompt)
+            response = self.llm.invoke(prompt, stop=stop)
             latency = time.time() - start_time
             return response.strip(), latency
         except Exception as e:
@@ -320,18 +320,27 @@ Solution:"""
             for call, result in calc_results.items():
                 if result is not None:
                     enhanced_solution = enhanced_solution.replace(call, f"[Result: {result}]")
-            
+
+            # Drop text after the last result: the model wrote it before seeing the tool output
+            last_result = enhanced_solution.rfind("[Result:")
+            if last_result != -1:
+                enhanced_solution = enhanced_solution[:enhanced_solution.find("]", last_result) + 1]
+
             # Step 5: Generate final answer with calculations
             print("\n✨ STEP 5: Final Solution Generation")
-            final_prompt = f"""Based on the calculations performed, provide a clear final answer to the problem.
+            final_prompt = f"""Problem: Sarah has 15 apples. She gives 7 apples to her friend. How many apples does she have left?
+Solution with calculations: Sarah starts with 15 apples and gives away 7 apples. I need to calculate how many are left: [Result: 8]
+Final Answer: Sarah has 8 apples left.
+
+Problem: A rectangle has length 12 meters and width 8 meters. What is its area?
+Solution with calculations: The area of a rectangle is length × width. [Result: 96]
+Final Answer: The area is 96 square meters.
 
 Problem: {problem}
-
 Solution with calculations: {enhanced_solution}
-
 Final Answer:"""
-            
-            final_answer, final_inference_latency = self.generate_response(final_prompt)
+
+            final_answer, final_inference_latency = self.generate_response(final_prompt, stop=["\n"])
             print(f"✅ Final answer generated in {final_inference_latency:.2f}s")
             
             total_time = time.time() - total_start_time

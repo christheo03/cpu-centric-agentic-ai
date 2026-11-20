@@ -1,0 +1,3056 @@
+{
+  "benchmark_info": {
+    "start_time": "2026-11-13T08:48:43.526015",
+    "script_version": "1.0",
+    "dataset": "MAWPS",
+    "total_batch_sizes": 8,
+    "uses_wolfram_calculator": true,
+    "workload": "exact_math_toolformer_process_math_problem",
+    "planned_batch_sizes": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128
+    ],
+    "end_time": "2026-11-13T08:55:43.735571"
+  },
+  "batch_results": [
+    {
+      "batch_size": 1,
+      "total_requests": 1,
+      "successful_requests": 0,
+      "failed_requests": 1,
+      "timeout_requests": 0,
+      "total_time_seconds": 26.25185203552246,
+      "throughput_req_per_sec": 0.03809255052355388,
+      "success_rate": 0.0,
+      "avg_latency_seconds": 0,
+      "p95_latency_seconds": 0,
+      "p99_latency_seconds": 0,
+      "calculator_usage": {
+        "problems_using_calculator": 0,
+        "calculator_usage_rate": 0,
+        "total_wolfram_calls": 0,
+        "avg_wolfram_latency": 0
+      },
+      "detailed_results": [
+        {
+          "problem": "John bought 4 bags of apples. Each bag contains 12 apples. He ate 7 apples. How many apples does he have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 26.251473665237427,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 26.251473665237427
+          }
+        }
+      ],
+      "timestamp": "2026-11-13T08:49:09.777948"
+    },
+    {
+      "batch_size": 2,
+      "total_requests": 2,
+      "successful_requests": 0,
+      "failed_requests": 2,
+      "timeout_requests": 0,
+      "total_time_seconds": 25.89679980278015,
+      "throughput_req_per_sec": 0.077229619691669,
+      "success_rate": 0.0,
+      "avg_latency_seconds": 0,
+      "p95_latency_seconds": 0,
+      "p99_latency_seconds": 0,
+      "calculator_usage": {
+        "problems_using_calculator": 0,
+        "calculator_usage_rate": 0,
+        "total_wolfram_calls": 0,
+        "avg_wolfram_latency": 0
+      },
+      "detailed_results": [
+        {
+          "problem": "John bought 4 bags of apples. Each bag contains 12 apples. He ate 7 apples. How many apples does he have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 25.882269620895386,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 25.882269620895386
+          }
+        },
+        {
+          "problem": "Sarah has 15 stickers. She gets 23 more stickers from her friend. How many stickers does she have now?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 25.895840406417847,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 25.895840406417847
+          }
+        }
+      ],
+      "timestamp": "2026-11-13T08:49:35.676291"
+    },
+    {
+      "batch_size": 4,
+      "total_requests": 4,
+      "successful_requests": 0,
+      "failed_requests": 4,
+      "timeout_requests": 0,
+      "total_time_seconds": 26.819610357284546,
+      "throughput_req_per_sec": 0.14914459780410455,
+      "success_rate": 0.0,
+      "avg_latency_seconds": 0,
+      "p95_latency_seconds": 0,
+      "p99_latency_seconds": 0,
+      "calculator_usage": {
+        "problems_using_calculator": 0,
+        "calculator_usage_rate": 0,
+        "total_wolfram_calls": 0,
+        "avg_wolfram_latency": 0
+      },
+      "detailed_results": [
+        {
+          "problem": "Sarah has 15 stickers. She gets 23 more stickers from her friend. How many stickers does she have now?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 26.789761304855347,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 26.789761304855347
+          }
+        },
+        {
+          "problem": "Tom collected 45 baseball cards in January, 38 in February, and 52 in March. How many cards did he collect in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 26.815707445144653,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 26.815707445144653
+          }
+        },
+        {
+          "problem": "John bought 4 bags of apples. Each bag contains 12 apples. He ate 7 apples. How many apples does he have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 26.81857681274414,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 26.81857681274414
+          }
+        },
+        {
+          "problem": "A library has 234 books on the first shelf and 167 books on the second shelf. How many books are on both shelves combined?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 26.818332195281982,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 26.818332195281982
+          }
+        }
+      ],
+      "timestamp": "2026-11-13T08:50:02.497249"
+    },
+    {
+      "batch_size": 8,
+      "total_requests": 8,
+      "successful_requests": 0,
+      "failed_requests": 8,
+      "timeout_requests": 0,
+      "total_time_seconds": 48.24303150177002,
+      "throughput_req_per_sec": 0.16582705835362943,
+      "success_rate": 0.0,
+      "avg_latency_seconds": 0,
+      "p95_latency_seconds": 0,
+      "p99_latency_seconds": 0,
+      "calculator_usage": {
+        "problems_using_calculator": 0,
+        "calculator_usage_rate": 0,
+        "total_wolfram_calls": 0,
+        "avg_wolfram_latency": 0
+      },
+      "detailed_results": [
+        {
+          "problem": "John bought 4 bags of apples. Each bag contains 12 apples. He ate 7 apples. How many apples does he have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 28.163606882095337,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 28.163606882095337
+          }
+        },
+        {
+          "problem": "There are 89 red balloons and 76 blue balloons at a party. How many balloons are there altogether?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 28.192508220672607,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 28.192508220672607
+          }
+        },
+        {
+          "problem": "Tom collected 45 baseball cards in January, 38 in February, and 52 in March. How many cards did he collect in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 28.228107213974,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 28.228107213974
+          }
+        },
+        {
+          "problem": "A library has 234 books on the first shelf and 167 books on the second shelf. How many books are on both shelves combined?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 28.229565858840942,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 28.229565858840942
+          }
+        },
+        {
+          "problem": "Sarah has 15 stickers. She gets 23 more stickers from her friend. How many stickers does she have now?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 28.236902952194214,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 28.236902952194214
+          }
+        },
+        {
+          "problem": "A farmer has 145 chickens and 89 ducks. How many birds does the farmer have in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 28.235722541809082,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 28.235722541809082
+          }
+        },
+        {
+          "problem": "Maria saved $12 in week 1, $18 in week 2, $15 in week 3, and $20 in week 4. How much money did she save in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 28.222858428955078,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 28.222858428955078
+          }
+        },
+        {
+          "problem": "In a school cafeteria, 187 students had lunch on Monday and 154 students had lunch on Tuesday. How many students had lunch over both days?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 48.22550082206726,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 48.22550082206726
+          }
+        }
+      ],
+      "timestamp": "2026-11-13T08:50:50.741679"
+    },
+    {
+      "batch_size": 16,
+      "total_requests": 16,
+      "successful_requests": 0,
+      "failed_requests": 16,
+      "timeout_requests": 0,
+      "total_time_seconds": 53.39658069610596,
+      "throughput_req_per_sec": 0.29964465498381304,
+      "success_rate": 0.0,
+      "avg_latency_seconds": 0,
+      "p95_latency_seconds": 0,
+      "p99_latency_seconds": 0,
+      "calculator_usage": {
+        "problems_using_calculator": 0,
+        "calculator_usage_rate": 0,
+        "total_wolfram_calls": 0,
+        "avg_wolfram_latency": 0
+      },
+      "detailed_results": [
+        {
+          "problem": "Maria saved $12 in week 1, $18 in week 2, $15 in week 3, and $20 in week 4. How much money did she save in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 33.22110557556152,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 33.22110557556152
+          }
+        },
+        {
+          "problem": "Tom collected 45 baseball cards in January, 38 in February, and 52 in March. How many cards did he collect in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 33.279362201690674,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 33.279362201690674
+          }
+        },
+        {
+          "problem": "John bought 4 bags of apples. Each bag contains 12 apples. He ate 7 apples. How many apples does he have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 33.33824801445007,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 33.33824801445007
+          }
+        },
+        {
+          "problem": "A library has 234 books on the first shelf and 167 books on the second shelf. How many books are on both shelves combined?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 33.340673208236694,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 33.340673208236694
+          }
+        },
+        {
+          "problem": "Jake scored 23 points in the first game, 19 points in the second game, and 31 points in the third game. What was his total score?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 33.33726763725281,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 33.33726763725281
+          }
+        },
+        {
+          "problem": "During a fundraiser, the class collected $145 on Friday and $178 on Saturday. How much money did they collect in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 33.335766315460205,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 33.335766315460205
+          }
+        },
+        {
+          "problem": "There are 67 fiction books and 84 non-fiction books in a bookstore. How many books are there in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 33.380231618881226,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 33.380231618881226
+          }
+        },
+        {
+          "problem": "There are 89 red balloons and 76 blue balloons at a party. How many balloons are there altogether?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 33.38493490219116,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 33.38493490219116
+          }
+        },
+        {
+          "problem": "A store received 96 shirts and 78 pairs of pants in their shipment. How many clothing items did they receive?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 33.384044885635376,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 33.384044885635376
+          }
+        },
+        {
+          "problem": "A movie theater sold 267 tickets for the matinee and 189 tickets for the evening show. How many tickets were sold in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 33.38004446029663,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 33.38004446029663
+          }
+        },
+        {
+          "problem": "Sarah has 15 stickers. She gets 23 more stickers from her friend. How many stickers does she have now?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 33.38902187347412,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 33.38902187347412
+          }
+        },
+        {
+          "problem": "A parking garage has 158 cars on level 1 and 142 cars on level 2. How many cars are parked in the garage?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 33.38352918624878,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 33.38352918624878
+          }
+        },
+        {
+          "problem": "There are 73 apples in basket A and 91 apples in basket B. How many apples are there in both baskets?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 33.3914098739624,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 33.3914098739624
+          }
+        },
+        {
+          "problem": "Amy planted 35 roses, 42 tulips, and 28 daisies in her garden. How many flowers did she plant altogether?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 33.39330863952637,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 33.39330863952637
+          }
+        },
+        {
+          "problem": "A farmer has 145 chickens and 89 ducks. How many birds does the farmer have in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 33.39732575416565,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 33.39732575416565
+          }
+        },
+        {
+          "problem": "In a school cafeteria, 187 students had lunch on Monday and 154 students had lunch on Tuesday. How many students had lunch over both days?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 53.392431020736694,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 53.392431020736694
+          }
+        }
+      ],
+      "timestamp": "2026-11-13T08:51:44.150569"
+    },
+    {
+      "batch_size": 32,
+      "total_requests": 32,
+      "successful_requests": 0,
+      "failed_requests": 32,
+      "timeout_requests": 0,
+      "total_time_seconds": 60.79438614845276,
+      "throughput_req_per_sec": 0.5263643903214971,
+      "success_rate": 0.0,
+      "avg_latency_seconds": 0,
+      "p95_latency_seconds": 0,
+      "p99_latency_seconds": 0,
+      "calculator_usage": {
+        "problems_using_calculator": 0,
+        "calculator_usage_rate": 0,
+        "total_wolfram_calls": 0,
+        "avg_wolfram_latency": 0
+      },
+      "detailed_results": [
+        {
+          "problem": "A library has 234 books on the first shelf and 167 books on the second shelf. How many books are on both shelves combined?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 38.55933427810669,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 38.55933427810669
+          }
+        },
+        {
+          "problem": "Tom collected 45 baseball cards in January, 38 in February, and 52 in March. How many cards did he collect in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 38.82120370864868,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 38.82120370864868
+          }
+        },
+        {
+          "problem": "A parking garage has 158 cars on level 1 and 142 cars on level 2. How many cars are parked in the garage?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 39.047905683517456,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 39.047905683517456
+          }
+        },
+        {
+          "problem": "A farmer had 167 apples. He sold 89 apples at the market. How many apples does he have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 39.55576205253601,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 39.55576205253601
+          }
+        },
+        {
+          "problem": "There are 73 apples in basket A and 91 apples in basket B. How many apples are there in both baskets?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 39.577163219451904,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 39.577163219451904
+          }
+        },
+        {
+          "problem": "A store received 96 shirts and 78 pairs of pants in their shipment. How many clothing items did they receive?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 40.17785358428955,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 40.17785358428955
+          }
+        },
+        {
+          "problem": "There were 234 cars in a parking lot. 87 cars left. How many cars are still in the parking lot?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 40.30493187904358,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 40.30493187904358
+          }
+        },
+        {
+          "problem": "A restaurant served 234 customers for lunch and 156 customers for dinner. How many customers were served in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 40.387102365493774,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 40.387102365493774
+          }
+        },
+        {
+          "problem": "A movie theater sold 267 tickets for the matinee and 189 tickets for the evening show. How many tickets were sold in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 40.39915943145752,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 40.39915943145752
+          }
+        },
+        {
+          "problem": "Sarah has 15 stickers. She gets 23 more stickers from her friend. How many stickers does she have now?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 40.47861933708191,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 40.47861933708191
+          }
+        },
+        {
+          "problem": "Jake scored 23 points in the first game, 19 points in the second game, and 31 points in the third game. What was his total score?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 40.4750862121582,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 40.4750862121582
+          }
+        },
+        {
+          "problem": "There are 89 red balloons and 76 blue balloons at a party. How many balloons are there altogether?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 40.5363929271698,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 40.5363929271698
+          }
+        },
+        {
+          "problem": "Lisa has 56 marbles in her collection. Her brother gives her 34 more marbles. How many marbles does she have now?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 40.70787954330444,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 40.70787954330444
+          }
+        },
+        {
+          "problem": "Sarah had $75. She spent $29 on groceries. How much money does she have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 40.69213914871216,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 40.69213914871216
+          }
+        },
+        {
+          "problem": "There are 67 fiction books and 84 non-fiction books in a bookstore. How many books are there in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 40.77953052520752,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 40.77953052520752
+          }
+        },
+        {
+          "problem": "A zoo has 112 mammals and 95 birds. How many animals are there in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 40.777031660079956,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 40.777031660079956
+          }
+        },
+        {
+          "problem": "Tom had 95 baseball cards. He gave 38 cards to his friend. How many cards does Tom have now?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 40.762962341308594,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 40.762962341308594
+          }
+        },
+        {
+          "problem": "John bought 4 bags of apples. Each bag contains 12 apples. He ate 7 apples. How many apples does he have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 40.78733515739441,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 40.78733515739441
+          }
+        },
+        {
+          "problem": "A farmer has 145 chickens and 89 ducks. How many birds does the farmer have in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 40.83547616004944,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 40.83547616004944
+          }
+        },
+        {
+          "problem": "Amy planted 35 roses, 42 tulips, and 28 daisies in her garden. How many flowers did she plant altogether?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 40.83395862579346,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 40.83395862579346
+          }
+        },
+        {
+          "problem": "A store sold 156 books on Monday and 89 books on Tuesday. On Wednesday, they sold twice as many books as Tuesday. How many books did they sell in total over the three days?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 40.82036828994751,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 40.82036828994751
+          }
+        },
+        {
+          "problem": "There were 345 students in a school. 123 students went on a field trip. How many students remained in school?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 40.81870889663696,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 40.81870889663696
+          }
+        },
+        {
+          "problem": "A library had 456 books. They removed 189 damaged books. How many books are left in the library?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 40.81627154350281,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 40.81627154350281
+          }
+        },
+        {
+          "problem": "During recess, 78 students played soccer and 45 students played basketball. How many students played sports?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 40.83100461959839,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 40.83100461959839
+          }
+        },
+        {
+          "problem": "During a fundraiser, the class collected $145 on Friday and $178 on Saturday. How much money did they collect in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 40.8336443901062,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 40.8336443901062
+          }
+        },
+        {
+          "problem": "A bookstore had 312 magazines. They sold 145 magazines. How many magazines are left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 40.80073142051697,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 40.80073142051697
+          }
+        },
+        {
+          "problem": "Emma has $50. She buys 3 toys for $8 each and 2 books for $6 each. How much money does she have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 40.82110142707825,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 40.82110142707825
+          }
+        },
+        {
+          "problem": "Maria saved $12 in week 1, $18 in week 2, $15 in week 3, and $20 in week 4. How much money did she save in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 40.84036207199097,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 40.84036207199097
+          }
+        },
+        {
+          "problem": "Jake had 84 stickers. He used 35 stickers to decorate his notebook. How many stickers does he have remaining?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 40.809067249298096,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 40.809067249298096
+          }
+        },
+        {
+          "problem": "A baker made 180 cookies. She sold 127 cookies. How many cookies does she have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 40.824238538742065,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 40.824238538742065
+          }
+        },
+        {
+          "problem": "A school had 523 pencils. Students used 278 pencils. How many pencils are left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 60.24680519104004,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 60.24680519104004
+          }
+        },
+        {
+          "problem": "In a school cafeteria, 187 students had lunch on Monday and 154 students had lunch on Tuesday. How many students had lunch over both days?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 60.78934049606323,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 60.78934049606323
+          }
+        }
+      ],
+      "timestamp": "2026-11-13T08:52:44.978654"
+    },
+    {
+      "batch_size": 64,
+      "total_requests": 64,
+      "successful_requests": 1,
+      "failed_requests": 63,
+      "timeout_requests": 0,
+      "total_time_seconds": 76.02506756782532,
+      "throughput_req_per_sec": 0.8418275977578419,
+      "success_rate": 0.015625,
+      "avg_latency_seconds": 35.536949634552,
+      "p95_latency_seconds": 35.536949634552,
+      "p99_latency_seconds": 35.536949634552,
+      "calculator_usage": {
+        "problems_using_calculator": 0,
+        "calculator_usage_rate": 0.0,
+        "total_wolfram_calls": 0,
+        "avg_wolfram_latency": 0
+      },
+      "detailed_results": [
+        {
+          "problem": "A parking garage has 26 levels. Each level has 48 parking spaces. How many parking spaces are there?",
+          "initial_solution": "The parking spaces are on the first level. The parking spaces are on the second level. The parking spaces are on the third level. The parking spaces are on the fourth level. The parking spaces are on the fifth level. The parking spaces are on the sixth level. The parking spaces are on the seventh level. The parking spaces are on the eighth level. The parking spaces are on the ninth level. The parking spaces are on the tenth level. The parking spaces are on the eleventh level. The parking spaces are on the twelfth level. The parking spaces are on the thirteenth level. The parking spaces are on the fourteenth level. The parking spaces are on the fifteenth level. The parking spaces are on the sixteenth level. The parking spaces are on the seventeenth level. The parking spaces are on the eighteenth level. The parking spaces are on the nineteenth level. The parking spaces are on the twentieth level. The parking spaces are on the twenty-first level. The parking spaces are on the twenty-second level. The parking spaces are on the twenty-third level. The parking spaces are on the twenty-fourth level. The parking spaces are on the twenty-fifth level. The parking spaces are on the twenty-sixth level. The",
+          "final_answer": "The parking spaces are on the first level. The parking spaces are on the second level. The parking spaces are on the third level. The parking spaces are on the fourth level. The parking spaces are on the fifth level. The parking spaces are on the sixth level. The parking spaces are on the seventh level. The parking spaces are on the eighth level. The parking spaces are on the ninth level. The parking spaces are on the tenth level. The parking spaces are on the eleventh level. The parking spaces are on the twelfth level. The parking spaces are on the thirteenth level. The parking spaces are on the fourteenth level. The parking spaces are on the fifteenth level. The parking spaces are on the sixteenth level. The parking spaces are on the seventeenth level. The parking spaces are on the eighteenth level. The parking spaces are on the nineteenth level. The parking spaces are on the twentieth level. The parking spaces are on the twenty-first level. The parking spaces are on the twenty-second level. The parking spaces are on the twenty-third level. The parking spaces are on the twenty-fourth level. The parking spaces are on the twenty-fifth level. The parking spaces are on the twenty-sixth level. The",
+          "used_calculator": false,
+          "latencies": {
+            "initial_inference": 31.798359870910645,
+            "end_to_end": 31.79838728904724
+          },
+          "prompts": {
+            "initial": "Your task is to solve mathematical word problems step by step. For any calculations needed, use the WolFrom Alpha API tool.\n\nTo use the calculator, write: [Calculator(\"mathematical expression\")]\n\nHere are some examples:\n\nProblem: Sarah has 15 apples. She gives 7 apples to her friend. How many apples does she have left?\nSolution: Sarah starts with 15 apples and gives away 7 apples. I need to calculate how many are left: [Calculator(\"15 - 7\")] Sarah has 8 apples left.\n\nProblem: A rectangle has length 12 meters and width 8 meters. What is its area?\nSolution: The area of a rectangle is length \u00d7 width. [Calculator(\"12 * 8\")] The area is 96 square meters.\n\nProblem: Tom buys 3 packs of pencils. Each pack costs $4.50. How much does he spend in total?\nSolution: Tom buys 3 packs at $4.50 each. The total cost is: [Calculator(\"3 * 4.50\")] Tom spends $13.50 in total.\n\nProblem: A parking garage has 26 levels. Each level has 48 parking spaces. How many parking spaces are there?\nSolution:"
+          },
+          "processing_time": 35.536949634552,
+          "success": true,
+          "timeout": false
+        },
+        {
+          "problem": "There are 89 red balloons and 76 blue balloons at a party. How many balloons are there altogether?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 52.39955019950867,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 52.39955019950867
+          }
+        },
+        {
+          "problem": "Tom collected 45 baseball cards in January, 38 in February, and 52 in March. How many cards did he collect in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 52.40033769607544,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 52.40033769607544
+          }
+        },
+        {
+          "problem": "Ben had 128 toy cars. He gave 47 cars to his cousin. How many toy cars does Ben have now?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 52.95366311073303,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 52.95366311073303
+          }
+        },
+        {
+          "problem": "A zoo has 112 mammals and 95 birds. How many animals are there in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 53.43081498146057,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 53.43081498146057
+          }
+        },
+        {
+          "problem": "A store sold 156 books on Monday and 89 books on Tuesday. On Wednesday, they sold twice as many books as Tuesday. How many books did they sell in total over the three days?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 53.567256689071655,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 53.567256689071655
+          }
+        },
+        {
+          "problem": "Lisa has 23 containers. Each container holds 15 marbles. How many marbles does Lisa have?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 53.47552227973938,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 53.47552227973938
+          }
+        },
+        {
+          "problem": "There are 9 bags of marbles. Each bag contains 16 marbles. How many marbles are there altogether?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 53.65771555900574,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 53.65771555900574
+          }
+        },
+        {
+          "problem": "There are 6 boxes of crayons. Each box has 24 crayons. How many crayons are there in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 53.79226088523865,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 53.79226088523865
+          }
+        },
+        {
+          "problem": "A parking lot has 8 rows of parking spaces. Each row has 25 spaces. If 127 spaces are occupied, how many spaces are empty?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 54.07477641105652,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 54.07477641105652
+          }
+        },
+        {
+          "problem": "There are 11 boxes of pencils. Each box has 12 pencils. How many pencils are there in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 54.05397176742554,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 54.05397176742554
+          }
+        },
+        {
+          "problem": "There were 345 students in a school. 123 students went on a field trip. How many students remained in school?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 54.37367653846741,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 54.37367653846741
+          }
+        },
+        {
+          "problem": "A library has 22 shelves. Each shelf holds 45 books. How many books can the library hold?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 54.44174385070801,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 54.44174385070801
+          }
+        },
+        {
+          "problem": "Tom has 13 albums. Each album has 20 photos. How many photos does Tom have?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 54.9822301864624,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 54.9822301864624
+          }
+        },
+        {
+          "problem": "Emma has $50. She buys 3 toys for $8 each and 2 books for $6 each. How much money does she have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.041688442230225,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.041688442230225
+          }
+        },
+        {
+          "problem": "A movie theater sold 267 tickets for the matinee and 189 tickets for the evening show. How many tickets were sold in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.05057430267334,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.05057430267334
+          }
+        },
+        {
+          "problem": "Tom had 95 baseball cards. He gave 38 cards to his friend. How many cards does Tom have now?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.27785587310791,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.27785587310791
+          }
+        },
+        {
+          "problem": "Ben collects stamps in 18 albums. Each album has 25 stamps. How many stamps does Ben have?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.33351397514343,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.33351397514343
+          }
+        },
+        {
+          "problem": "Jake had 84 stickers. He used 35 stickers to decorate his notebook. How many stickers does he have remaining?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.39594507217407,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.39594507217407
+          }
+        },
+        {
+          "problem": "A pond had 145 fish. 38 fish were caught by fishermen. How many fish are left in the pond?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.38383388519287,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.38383388519287
+          }
+        },
+        {
+          "problem": "A farmer has 15 rows of corn. Each row has 34 corn plants. How many corn plants does the farmer have?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.366894483566284,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.366894483566284
+          }
+        },
+        {
+          "problem": "There are 73 apples in basket A and 91 apples in basket B. How many apples are there in both baskets?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.526451587677,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.526451587677
+          }
+        },
+        {
+          "problem": "A restaurant served 234 customers for lunch and 156 customers for dinner. How many customers were served in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.52376699447632,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.52376699447632
+          }
+        },
+        {
+          "problem": "A school has 12 classrooms. Each classroom has 28 students. How many students are in the school?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.48700928688049,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.48700928688049
+          }
+        },
+        {
+          "problem": "A library had 456 books. They removed 189 damaged books. How many books are left in the library?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.63952684402466,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.63952684402466
+          }
+        },
+        {
+          "problem": "A bookstore had 312 magazines. They sold 145 magazines. How many magazines are left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.63288354873657,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.63288354873657
+          }
+        },
+        {
+          "problem": "Amy planted 35 roses, 42 tulips, and 28 daisies in her garden. How many flowers did she plant altogether?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.65746855735779,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.65746855735779
+          }
+        },
+        {
+          "problem": "During a fundraiser, the class collected $145 on Friday and $178 on Saturday. How much money did they collect in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.753121852874756,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.753121852874756
+          }
+        },
+        {
+          "problem": "There are 67 fiction books and 84 non-fiction books in a bookstore. How many books are there in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.75961351394653,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.75961351394653
+          }
+        },
+        {
+          "problem": "A farmer had 167 apples. He sold 89 apples at the market. How many apples does he have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.74304270744324,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.74304270744324
+          }
+        },
+        {
+          "problem": "Sarah has 15 stickers. She gets 23 more stickers from her friend. How many stickers does she have now?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.77004599571228,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.77004599571228
+          }
+        },
+        {
+          "problem": "Lisa had 203 photos. She deleted 76 photos. How many photos does she have now?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.727320194244385,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.727320194244385
+          }
+        },
+        {
+          "problem": "There are 144 students going on a field trip. If each bus holds 36 students, how many buses are needed?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.65715289115906,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.65715289115906
+          }
+        },
+        {
+          "problem": "Sarah reads 8 books. Each book has 125 pages. How many pages did she read in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.78225040435791,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.78225040435791
+          }
+        },
+        {
+          "problem": "A library has 234 books on the first shelf and 167 books on the second shelf. How many books are on both shelves combined?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.842926025390625,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.842926025390625
+          }
+        },
+        {
+          "problem": "A parking garage has 158 cars on level 1 and 142 cars on level 2. How many cars are parked in the garage?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.83747744560242,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.83747744560242
+          }
+        },
+        {
+          "problem": "David runs 2.5 miles every day for 6 days. Then he runs 4 miles on the 7th day. What is the total distance he ran in the week?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.734604597091675,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.734604597091675
+          }
+        },
+        {
+          "problem": "There were 167 flowers in a garden. 54 flowers were picked. How many flowers remain in the garden?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.88688278198242,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.88688278198242
+          }
+        },
+        {
+          "problem": "During recess, 78 students played soccer and 45 students played basketball. How many students played sports?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.914992809295654,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.914992809295654
+          }
+        },
+        {
+          "problem": "Amy had $90. She bought a dress for $45. How much money does she have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.89338827133179,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.89338827133179
+          }
+        },
+        {
+          "problem": "There are 216 books to be placed equally on 8 shelves. How many books will be on each shelf?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.80261778831482,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.80261778831482
+          }
+        },
+        {
+          "problem": "A school has 19 buses. Each bus can carry 42 students. How many students can all buses carry?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.819884300231934,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.819884300231934
+          }
+        },
+        {
+          "problem": "A farmer has 145 chickens and 89 ducks. How many birds does the farmer have in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.925153970718384,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.925153970718384
+          }
+        },
+        {
+          "problem": "There are 16 tables in a restaurant. Each table seats 6 people. How many people can the restaurant seat?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.85638213157654,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.85638213157654
+          }
+        },
+        {
+          "problem": "A bakery makes 14 trays of cookies. Each tray has 18 cookies. How many cookies did the bakery make?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.912535667419434,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.912535667419434
+          }
+        },
+        {
+          "problem": "Jake scored 23 points in the first game, 19 points in the second game, and 31 points in the third game. What was his total score?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.98355841636658,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.98355841636658
+          }
+        },
+        {
+          "problem": "A bakery has 180 cupcakes to pack into boxes. Each box holds 12 cupcakes. How many boxes do they need?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.87367606163025,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.87367606163025
+          }
+        },
+        {
+          "problem": "Lisa has 56 marbles in her collection. Her brother gives her 34 more marbles. How many marbles does she have now?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.98132634162903,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.98132634162903
+          }
+        },
+        {
+          "problem": "There were 234 cars in a parking lot. 87 cars left. How many cars are still in the parking lot?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.96909856796265,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.96909856796265
+          }
+        },
+        {
+          "problem": "Sarah had $75. She spent $29 on groceries. How much money does she have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.971487045288086,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.971487045288086
+          }
+        },
+        {
+          "problem": "A store received 96 shirts and 78 pairs of pants in their shipment. How many clothing items did they receive?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.990525007247925,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.990525007247925
+          }
+        },
+        {
+          "problem": "A store has 21 boxes of apples. Each box contains 36 apples. How many apples does the store have?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.90685153007507,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.90685153007507
+          }
+        },
+        {
+          "problem": "John bought 4 bags of apples. Each bag contains 12 apples. He ate 7 apples. How many apples does he have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.99576997756958,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.99576997756958
+          }
+        },
+        {
+          "problem": "Jake buys 7 packs of baseball cards. Each pack has 15 cards. How many baseball cards does he have?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.938740491867065,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.938740491867065
+          }
+        },
+        {
+          "problem": "There are 17 classrooms. Each classroom has 30 desks. How many desks are there in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.91098070144653,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.91098070144653
+          }
+        },
+        {
+          "problem": "Amy plants 19 rows of flowers. Each row has 12 flowers. How many flowers did she plant?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.912447929382324,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.912447929382324
+          }
+        },
+        {
+          "problem": "A baker made 180 cookies. She sold 127 cookies. How many cookies does she have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.986124753952026,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.986124753952026
+          }
+        },
+        {
+          "problem": "A theater had 400 seats. 256 seats were occupied. How many seats were empty?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.96733283996582,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.96733283996582
+          }
+        },
+        {
+          "problem": "There were 198 birds in a tree. 73 birds flew away. How many birds remained in the tree?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.97637438774109,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.97637438774109
+          }
+        },
+        {
+          "problem": "There are 14 teams in a league. Each team has 11 players. How many players are in the league?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 55.91711378097534,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 55.91711378097534
+          }
+        },
+        {
+          "problem": "Maria saved $12 in week 1, $18 in week 2, $15 in week 3, and $20 in week 4. How much money did she save in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 56.00590896606445,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 56.00590896606445
+          }
+        },
+        {
+          "problem": "In a school cafeteria, 187 students had lunch on Monday and 154 students had lunch on Tuesday. How many students had lunch over both days?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 75.66215705871582,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 75.66215705871582
+          }
+        },
+        {
+          "problem": "A container had 246 marbles. 89 marbles were removed. How many marbles are still in the container?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 75.91653656959534,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 75.91653656959534
+          }
+        },
+        {
+          "problem": "A school had 523 pencils. Students used 278 pencils. How many pencils are left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 75.99439859390259,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 75.99439859390259
+          }
+        }
+      ],
+      "timestamp": "2026-11-13T08:54:01.007204"
+    },
+    {
+      "batch_size": 128,
+      "total_requests": 128,
+      "successful_requests": 1,
+      "failed_requests": 127,
+      "timeout_requests": 0,
+      "total_time_seconds": 102.71754574775696,
+      "throughput_req_per_sec": 1.2461356924777882,
+      "success_rate": 0.0078125,
+      "avg_latency_seconds": 59.32608437538147,
+      "p95_latency_seconds": 59.32608437538147,
+      "p99_latency_seconds": 59.32608437538147,
+      "calculator_usage": {
+        "problems_using_calculator": 0,
+        "calculator_usage_rate": 0.0,
+        "total_wolfram_calls": 0,
+        "avg_wolfram_latency": 0
+      },
+      "detailed_results": [
+        {
+          "problem": "A parking garage has 26 levels. Each level has 48 parking spaces. How many parking spaces are there?",
+          "initial_solution": "The parking spaces are on the first level. The parking spaces are on the second level. The parking spaces are on the third level. The parking spaces are on the fourth level. The parking spaces are on the fifth level. The parking spaces are on the sixth level. The parking spaces are on the seventh level. The parking spaces are on the eighth level. The parking spaces are on the ninth level. The parking spaces are on the tenth level. The parking spaces are on the eleventh level. The parking spaces are on the twelfth level. The parking spaces are on the thirteenth level. The parking spaces are on the fourteenth level. The parking spaces are on the fifteenth level. The parking spaces are on the sixteenth level. The parking spaces are on the seventeenth level. The parking spaces are on the eighteenth level. The parking spaces are on the nineteenth level. The parking spaces are on the twentieth level. The parking spaces are on the twenty-first level. The parking spaces are on the twenty-second level. The parking spaces are on the twenty-third level. The parking spaces are on the twenty-fourth level. The parking spaces are on the twenty-fifth level. The parking spaces are on the twenty-sixth level. The",
+          "final_answer": "The parking spaces are on the first level. The parking spaces are on the second level. The parking spaces are on the third level. The parking spaces are on the fourth level. The parking spaces are on the fifth level. The parking spaces are on the sixth level. The parking spaces are on the seventh level. The parking spaces are on the eighth level. The parking spaces are on the ninth level. The parking spaces are on the tenth level. The parking spaces are on the eleventh level. The parking spaces are on the twelfth level. The parking spaces are on the thirteenth level. The parking spaces are on the fourteenth level. The parking spaces are on the fifteenth level. The parking spaces are on the sixteenth level. The parking spaces are on the seventeenth level. The parking spaces are on the eighteenth level. The parking spaces are on the nineteenth level. The parking spaces are on the twentieth level. The parking spaces are on the twenty-first level. The parking spaces are on the twenty-second level. The parking spaces are on the twenty-third level. The parking spaces are on the twenty-fourth level. The parking spaces are on the twenty-fifth level. The parking spaces are on the twenty-sixth level. The",
+          "used_calculator": false,
+          "latencies": {
+            "initial_inference": 52.60744285583496,
+            "end_to_end": 52.607465982437134
+          },
+          "prompts": {
+            "initial": "Your task is to solve mathematical word problems step by step. For any calculations needed, use the WolFrom Alpha API tool.\n\nTo use the calculator, write: [Calculator(\"mathematical expression\")]\n\nHere are some examples:\n\nProblem: Sarah has 15 apples. She gives 7 apples to her friend. How many apples does she have left?\nSolution: Sarah starts with 15 apples and gives away 7 apples. I need to calculate how many are left: [Calculator(\"15 - 7\")] Sarah has 8 apples left.\n\nProblem: A rectangle has length 12 meters and width 8 meters. What is its area?\nSolution: The area of a rectangle is length \u00d7 width. [Calculator(\"12 * 8\")] The area is 96 square meters.\n\nProblem: Tom buys 3 packs of pencils. Each pack costs $4.50. How much does he spend in total?\nSolution: Tom buys 3 packs at $4.50 each. The total cost is: [Calculator(\"3 * 4.50\")] Tom spends $13.50 in total.\n\nProblem: A parking garage has 26 levels. Each level has 48 parking spaces. How many parking spaces are there?\nSolution:"
+          },
+          "processing_time": 59.32608437538147,
+          "success": true,
+          "timeout": false
+        },
+        {
+          "problem": "A bakery has 180 cupcakes to pack into boxes. Each box holds 12 cupcakes. How many boxes do they need?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 69.5729718208313,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 69.5729718208313
+          }
+        },
+        {
+          "problem": "A library had 456 books. They removed 189 damaged books. How many books are left in the library?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 71.68650531768799,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 71.68650531768799
+          }
+        },
+        {
+          "problem": "A farmer had 167 apples. He sold 89 apples at the market. How many apples does he have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 72.18490982055664,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 72.18490982055664
+          }
+        },
+        {
+          "problem": "There are 6 boxes of crayons. Each box has 24 crayons. How many crayons are there in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 73.90970039367676,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 73.90970039367676
+          }
+        },
+        {
+          "problem": "During recess, 78 students played soccer and 45 students played basketball. How many students played sports?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 76.01282024383545,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 76.01282024383545
+          }
+        },
+        {
+          "problem": "A movie theater sold 267 tickets for the matinee and 189 tickets for the evening show. How many tickets were sold in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 76.01554322242737,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 76.01554322242737
+          }
+        },
+        {
+          "problem": "Lisa has 56 marbles in her collection. Her brother gives her 34 more marbles. How many marbles does she have now?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 76.02372288703918,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 76.02372288703918
+          }
+        },
+        {
+          "problem": "John bought 4 bags of apples. Each bag contains 12 apples. He ate 7 apples. How many apples does he have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 76.27649211883545,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 76.27649211883545
+          }
+        },
+        {
+          "problem": "A theater has 240 seats arranged in equal rows of 16. How many rows are there?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 76.84662461280823,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 76.84662461280823
+          }
+        },
+        {
+          "problem": "Sarah had $75. She spent $29 on groceries. How much money does she have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 77.73420286178589,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 77.73420286178589
+          }
+        },
+        {
+          "problem": "Lisa has 23 containers. Each container holds 15 marbles. How many marbles does Lisa have?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 77.90043067932129,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 77.90043067932129
+          }
+        },
+        {
+          "problem": "There were 198 birds in a tree. 73 birds flew away. How many birds remained in the tree?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 78.45598697662354,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 78.45598697662354
+          }
+        },
+        {
+          "problem": "A bakery makes 14 trays of cookies. Each tray has 18 cookies. How many cookies did the bakery make?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 78.65912175178528,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 78.65912175178528
+          }
+        },
+        {
+          "problem": "Emma has $50. She buys 3 toys for $8 each and 2 books for $6 each. How much money does she have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 78.72452402114868,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 78.72452402114868
+          }
+        },
+        {
+          "problem": "Tom collected 45 baseball cards in January, 38 in February, and 52 in March. How many cards did he collect in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 78.97807168960571,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 78.97807168960571
+          }
+        },
+        {
+          "problem": "A farmer has 145 chickens and 89 ducks. How many birds does the farmer have in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 79.22065806388855,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 79.22065806388855
+          }
+        },
+        {
+          "problem": "There were 167 flowers in a garden. 54 flowers were picked. How many flowers remain in the garden?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 79.40331602096558,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 79.40331602096558
+          }
+        },
+        {
+          "problem": "A store has 21 boxes of apples. Each box contains 36 apples. How many apples does the store have?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 79.58181023597717,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 79.58181023597717
+          }
+        },
+        {
+          "problem": "A store sells 13 cases of water with 24 bottles each. They had 89 bottles already. How many bottles do they have?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 79.59083151817322,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 79.59083151817322
+          }
+        },
+        {
+          "problem": "Ben had 128 toy cars. He gave 47 cars to his cousin. How many toy cars does Ben have now?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 79.86640095710754,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 79.86640095710754
+          }
+        },
+        {
+          "problem": "There were 345 students in a school. 123 students went on a field trip. How many students remained in school?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 80.12569999694824,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 80.12569999694824
+          }
+        },
+        {
+          "problem": "A restaurant had 234 customers. 89 customers left and 56 new customers arrived. How many customers are there?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 80.10767245292664,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 80.10767245292664
+          }
+        },
+        {
+          "problem": "Sarah buys 9 boxes of crayons with 16 crayons each. She already had 67 crayons. How many crayons in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 80.48872089385986,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 80.48872089385986
+          }
+        },
+        {
+          "problem": "There are 186 cookies to be packed into boxes of 6 each. How many boxes are required?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 80.85868263244629,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 80.85868263244629
+          }
+        },
+        {
+          "problem": "Jake buys 7 packs of baseball cards. Each pack has 15 cards. How many baseball cards does he have?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 80.97982025146484,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 80.97982025146484
+          }
+        },
+        {
+          "problem": "A bookstore orders 23 boxes of novels with 18 books each and 17 boxes of textbooks with 12 books each. How many books did they order?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 80.92652988433838,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 80.92652988433838
+          }
+        },
+        {
+          "problem": "There are 73 apples in basket A and 91 apples in basket B. How many apples are there in both baskets?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 81.27935528755188,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 81.27935528755188
+          }
+        },
+        {
+          "problem": "A pizza restaurant cuts each pizza into 8 slices. If they make 15 pizzas and sell 89 slices, how many slices are left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 80.95441436767578,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 80.95441436767578
+          }
+        },
+        {
+          "problem": "Tom has 13 albums. Each album has 20 photos. How many photos does Tom have?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 81.40816736221313,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 81.40816736221313
+          }
+        },
+        {
+          "problem": "A school has 19 buses. Each bus can carry 42 students. How many students can all buses carry?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 81.36783123016357,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 81.36783123016357
+          }
+        },
+        {
+          "problem": "A store received 96 shirts and 78 pairs of pants in their shipment. How many clothing items did they receive?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 81.70328044891357,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 81.70328044891357
+          }
+        },
+        {
+          "problem": "There are 16 tables in a restaurant. Each table seats 6 people. How many people can the restaurant seat?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 81.62632775306702,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 81.62632775306702
+          }
+        },
+        {
+          "problem": "A pond had 123 fish. 34 fish were caught and 19 new fish were added. How many fish are in the pond?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 81.45925259590149,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 81.45925259590149
+          }
+        },
+        {
+          "problem": "A school had 445 pencils. Students used 167 pencils and the school bought 89 new pencils. How many pencils are there?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 81.46259474754333,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 81.46259474754333
+          }
+        },
+        {
+          "problem": "Amy planted 35 roses, 42 tulips, and 28 daisies in her garden. How many flowers did she plant altogether?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 81.92014408111572,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 81.92014408111572
+          }
+        },
+        {
+          "problem": "A library has 234 books on the first shelf and 167 books on the second shelf. How many books are on both shelves combined?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 81.92561388015747,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 81.92561388015747
+          }
+        },
+        {
+          "problem": "Jake scored 23 points in the first game, 19 points in the second game, and 31 points in the third game. What was his total score?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 81.92904329299927,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 81.92904329299927
+          }
+        },
+        {
+          "problem": "There are 189 apples to be distributed equally among 21 baskets. How many apples per basket?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 81.71433782577515,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 81.71433782577515
+          }
+        },
+        {
+          "problem": "Amy plants 19 rows of flowers. Each row has 12 flowers. How many flowers did she plant?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 81.84463238716125,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 81.84463238716125
+          }
+        },
+        {
+          "problem": "A pond had 145 fish. 38 fish were caught by fishermen. How many fish are left in the pond?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 81.89842009544373,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 81.89842009544373
+          }
+        },
+        {
+          "problem": "A store had 289 shirts. They sold 134 shirts and received 76 new shirts. How many shirts do they have?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 81.70277762413025,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 81.70277762413025
+          }
+        },
+        {
+          "problem": "There are 144 students going on a field trip. If each bus holds 36 students, how many buses are needed?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 81.81278681755066,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 81.81278681755066
+          }
+        },
+        {
+          "problem": "A bakery made 180 muffins. They sold 67 muffins and made 45 more. How many muffins do they have?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 81.87603998184204,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 81.87603998184204
+          }
+        },
+        {
+          "problem": "There are 11 boxes of pencils. Each box has 12 pencils. How many pencils are there in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.04607248306274,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.04607248306274
+          }
+        },
+        {
+          "problem": "A farmer has 15 rows of corn. Each row has 34 corn plants. How many corn plants does the farmer have?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.05348086357117,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.05348086357117
+          }
+        },
+        {
+          "problem": "A store had 345 items. They sold 178 items on Monday and received 89 new items on Tuesday. How many items do they have now?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 81.90844678878784,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 81.90844678878784
+          }
+        },
+        {
+          "problem": "Sarah reads 8 books. Each book has 125 pages. How many pages did she read in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.05986452102661,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.05986452102661
+          }
+        },
+        {
+          "problem": "There were 178 birds in a tree. 45 birds flew away and 29 birds joined them. How many birds are there?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 81.87994337081909,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 81.87994337081909
+          }
+        },
+        {
+          "problem": "Jake has 11 albums with 20 stamps each and loses 47 stamps. How many stamps does he have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 81.80760312080383,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 81.80760312080383
+          }
+        },
+        {
+          "problem": "Maria saved $12 in week 1, $18 in week 2, $15 in week 3, and $20 in week 4. How much money did she save in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.3289794921875,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.3289794921875
+          }
+        },
+        {
+          "problem": "There are 225 books to be sorted into stacks of 15 each. How many stacks will there be?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.10460305213928,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.10460305213928
+          }
+        },
+        {
+          "problem": "Amy had $78. She spent $34 on groceries and $19 on gas. Then she received $25. How much money does she have?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.08942770957947,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.08942770957947
+          }
+        },
+        {
+          "problem": "There were 234 cars in a parking lot. 87 cars left. How many cars are still in the parking lot?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.31014251708984,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.31014251708984
+          }
+        },
+        {
+          "problem": "Maria buys 8 packs of stickers with 15 stickers each. She gives away 47 stickers. How many stickers does she have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.07592248916626,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.07592248916626
+          }
+        },
+        {
+          "problem": "There are 67 fiction books and 84 non-fiction books in a bookstore. How many books are there in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.34293580055237,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.34293580055237
+          }
+        },
+        {
+          "problem": "Ben collects stamps in 18 albums. Each album has 25 stamps. How many stamps does Ben have?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.23985195159912,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.23985195159912
+          }
+        },
+        {
+          "problem": "Lisa earns $12 per day for 15 days. She spends $134 on gifts. How much money does she have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.02877497673035,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.02877497673035
+          }
+        },
+        {
+          "problem": "There are 14 teams in a league. Each team has 11 players. How many players are in the league?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.2427191734314,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.2427191734314
+          }
+        },
+        {
+          "problem": "A garden has 15 sections with 26 flowers each. If 78 flowers are picked, how many flowers remain?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.02628254890442,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.02628254890442
+          }
+        },
+        {
+          "problem": "Lisa had 203 photos. She deleted 76 photos. How many photos does she have now?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.29713606834412,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.29713606834412
+          }
+        },
+        {
+          "problem": "There are 154 stickers to be shared equally among 14 children. How many stickers will each child receive?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.18122601509094,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.18122601509094
+          }
+        },
+        {
+          "problem": "A parking garage has 158 cars on level 1 and 142 cars on level 2. How many cars are parked in the garage?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.34994459152222,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.34994459152222
+          }
+        },
+        {
+          "problem": "During a fundraiser, the class collected $145 on Friday and $178 on Saturday. How much money did they collect in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.34949994087219,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.34949994087219
+          }
+        },
+        {
+          "problem": "Jake had 94 marbles. He gave away 36 marbles and found 18 more. How many marbles does he have?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.11315631866455,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.11315631866455
+          }
+        },
+        {
+          "problem": "Amy had $90. She bought a dress for $45. How much money does she have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.42308259010315,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.42308259010315
+          }
+        },
+        {
+          "problem": "There are 216 books to be placed equally on 8 shelves. How many books will be on each shelf?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.30892515182495,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.30892515182495
+          }
+        },
+        {
+          "problem": "Tom has 7 containers with 24 marbles each. He gives away 89 marbles. How many marbles does he have?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.14348816871643,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.14348816871643
+          }
+        },
+        {
+          "problem": "Jake had $145. He spent $67 on clothes and earned $34 from chores. How much money does he have?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.20132112503052,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.20132112503052
+          }
+        },
+        {
+          "problem": "A farmer has 168 eggs to pack into cartons. Each carton holds 12 eggs. How many cartons will he need?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.30660319328308,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.30660319328308
+          }
+        },
+        {
+          "problem": "There are 9 bags of marbles. Each bag contains 16 marbles. How many marbles are there altogether?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.39650011062622,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.39650011062622
+          }
+        },
+        {
+          "problem": "There are 89 red balloons and 76 blue balloons at a party. How many balloons are there altogether?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.47012591362,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.47012591362
+          }
+        },
+        {
+          "problem": "Lisa had 156 photos. She deleted 43 photos and took 67 new ones. How many photos does she have?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.21481466293335,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.21481466293335
+          }
+        },
+        {
+          "problem": "A theater had 400 seats. 256 seats were occupied. How many seats were empty?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.42271304130554,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.42271304130554
+          }
+        },
+        {
+          "problem": "Sarah had 85 stickers. She used 27 stickers and her friend gave her 34 more. How many stickers does she have?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.2376275062561,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.2376275062561
+          }
+        },
+        {
+          "problem": "A bakery makes 14 trays of cookies with 16 cookies each. They sell 178 cookies. How many cookies are left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.19618701934814,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.19618701934814
+          }
+        },
+        {
+          "problem": "A library has 22 shelves. Each shelf holds 45 books. How many books can the library hold?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.39006042480469,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.39006042480469
+          }
+        },
+        {
+          "problem": "Sarah has 15 stickers. She gets 23 more stickers from her friend. How many stickers does she have now?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.47814607620239,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.47814607620239
+          }
+        },
+        {
+          "problem": "Ben collects 4 boxes of 36 trading cards each. He trades away 58 cards. How many cards does he have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.27556467056274,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.27556467056274
+          }
+        },
+        {
+          "problem": "A farmer plants 12 rows of tomatoes with 18 plants each, and 8 rows of peppers with 22 plants each. How many plants did he plant in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.3178985118866,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.3178985118866
+          }
+        },
+        {
+          "problem": "A zoo has 112 mammals and 95 birds. How many animals are there in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.58407330513,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.58407330513
+          }
+        },
+        {
+          "problem": "David runs 2.5 miles every day for 6 days. Then he runs 4 miles on the 7th day. What is the total distance he ran in the week?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.45388698577881,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.45388698577881
+          }
+        },
+        {
+          "problem": "Tom had 95 baseball cards. He gave 38 cards to his friend. How many cards does Tom have now?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.56908249855042,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.56908249855042
+          }
+        },
+        {
+          "problem": "There were 240 students in a school. 45 students left and 38 new students joined. How many students are there now?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.36003708839417,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.36003708839417
+          }
+        },
+        {
+          "problem": "A store has 208 toys to display on 16 shelves equally. How many toys will be on each shelf?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.38836860656738,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.38836860656738
+          }
+        },
+        {
+          "problem": "There are 252 students to be divided into groups of 18. How many groups can be formed?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.3861768245697,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.3861768245697
+          }
+        },
+        {
+          "problem": "Jake runs 3.5 miles on Monday, 4.2 miles on Wednesday, and 2.8 miles on Friday. What is his total distance?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.30221796035767,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.30221796035767
+          }
+        },
+        {
+          "problem": "A farmer had 156 chickens. 23 chickens were sold and 19 new chickens were bought. How many chickens does he have?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.3613510131836,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.3613510131836
+          }
+        },
+        {
+          "problem": "A school has 228 students to form teams of 12. How many teams can be formed?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.42268824577332,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.42268824577332
+          }
+        },
+        {
+          "problem": "A baker made 180 cookies. She sold 127 cookies. How many cookies does she have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.57614874839783,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.57614874839783
+          }
+        },
+        {
+          "problem": "A school has 12 classrooms. Each classroom has 28 students. How many students are in the school?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.52722382545471,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.52722382545471
+          }
+        },
+        {
+          "problem": "A bookstore had 312 magazines. They sold 145 magazines. How many magazines are left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.5567946434021,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.5567946434021
+          }
+        },
+        {
+          "problem": "A school bus can carry 48 students. If there are 156 students going on a trip, how many bus trips are needed?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.25517678260803,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.25517678260803
+          }
+        },
+        {
+          "problem": "A school has 294 chairs to arrange in rows of 14. How many rows can be made?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.3803608417511,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.3803608417511
+          }
+        },
+        {
+          "problem": "A parking lot has 8 rows of parking spaces. Each row has 25 spaces. If 127 spaces are occupied, how many spaces are empty?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.61533641815186,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.61533641815186
+          }
+        },
+        {
+          "problem": "A parking lot has 264 spaces arranged in 12 equal rows. How many spaces are in each row?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.48146224021912,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.48146224021912
+          }
+        },
+        {
+          "problem": "A basketball player scores 23 points in the first game, 19 points in the second game, and 31 points in the third game. What is his average score per game?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.32579755783081,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.32579755783081
+          }
+        },
+        {
+          "problem": "Amy buys 6 packs of markers with 12 markers each. She already had 45 markers. How many markers does she have?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.37748003005981,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.37748003005981
+          }
+        },
+        {
+          "problem": "Sarah has 3 albums with 48 photos each and 5 albums with 36 photos each. How many photos does she have in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.40027379989624,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.40027379989624
+          }
+        },
+        {
+          "problem": "There are 315 flowers to be arranged in bouquets of 15 each. How many bouquets can be made?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.48180198669434,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.48180198669434
+          }
+        },
+        {
+          "problem": "A store sold 156 books on Monday and 89 books on Tuesday. On Wednesday, they sold twice as many books as Tuesday. How many books did they sell in total over the three days?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.67295145988464,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.67295145988464
+          }
+        },
+        {
+          "problem": "Tom had $120. He spent $35 on lunch and $28 on a book. Then he earned $15. How much money does he have?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.45382070541382,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.45382070541382
+          }
+        },
+        {
+          "problem": "A parking lot has 22 rows with 18 spaces each. If 187 spaces are occupied, how many are empty?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.35974884033203,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.35974884033203
+          }
+        },
+        {
+          "problem": "A recipe calls for 2.5 cups of flour per batch. If a baker makes 8 batches, how many cups of flour are needed in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.32999777793884,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.32999777793884
+          }
+        },
+        {
+          "problem": "A restaurant served 234 customers for lunch and 156 customers for dinner. How many customers were served in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.68286418914795,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.68286418914795
+          }
+        },
+        {
+          "problem": "A movie theater has 18 rows with 22 seats each. If 234 tickets are sold, how many seats remain empty?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.35823726654053,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.35823726654053
+          }
+        },
+        {
+          "problem": "A library has 28 shelves with 45 books each on the first floor and 156 books on the second floor. How many books in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.38336634635925,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.38336634635925
+          }
+        },
+        {
+          "problem": "A garden had 167 flowers. 38 flowers wilted and 52 new flowers bloomed. How many flowers are there?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.42799878120422,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.42799878120422
+          }
+        },
+        {
+          "problem": "Jake had 84 stickers. He used 35 stickers to decorate his notebook. How many stickers does he have remaining?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.65650725364685,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.65650725364685
+          }
+        },
+        {
+          "problem": "There are 17 classrooms. Each classroom has 30 desks. How many desks are there in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.59117293357849,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.59117293357849
+          }
+        },
+        {
+          "problem": "A theater has 24 rows with 32 seats each. If 256 seats are occupied, how many seats are empty?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.39489221572876,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.39489221572876
+          }
+        },
+        {
+          "problem": "A school ordered 15 boxes of pencils with 24 pencils each, and 12 boxes of erasers with 36 erasers each. How many items did they order in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.4291763305664,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.4291763305664
+          }
+        },
+        {
+          "problem": "Tom saves $25 each week for 8 weeks. He then spends $156 on a bike. How much money does he have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.420161485672,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.420161485672
+          }
+        },
+        {
+          "problem": "A factory produces 336 items to be packed into boxes of 24 each. How many boxes are needed?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.48524403572083,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.48524403572083
+          }
+        },
+        {
+          "problem": "A library had 567 books. 89 books were checked out and 45 new books were added. How many books are there now?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.46029090881348,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.46029090881348
+          }
+        },
+        {
+          "problem": "Ben had 67 toy cars. He lost 12 cars and his parents bought him 25 new cars. How many cars does he have?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.44929051399231,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.44929051399231
+          }
+        },
+        {
+          "problem": "There are 195 pencils to be distributed equally among 15 students. How many pencils will each student get?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.5390887260437,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.5390887260437
+          }
+        },
+        {
+          "problem": "Tom collected 95 baseball cards. He traded 28 cards and received 41 new cards. How many cards does he have?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.4480037689209,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.4480037689209
+          }
+        },
+        {
+          "problem": "There were 234 cars in a parking lot. 78 cars left and 52 cars arrived. How many cars are there now?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.45596361160278,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.45596361160278
+          }
+        },
+        {
+          "problem": "A farmer has 145 apple trees. Each tree produces 67 apples. If he sells 2,340 apples, how many apples does he have left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.36465644836426,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.36465644836426
+          }
+        },
+        {
+          "problem": "A library has 275 books to arrange on shelves. Each shelf holds 25 books. How many shelves are needed?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 82.51872491836548,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 82.51872491836548
+          }
+        },
+        {
+          "problem": "In a school cafeteria, 187 students had lunch on Monday and 154 students had lunch on Tuesday. How many students had lunch over both days?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 98.03250575065613,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 98.03250575065613
+          }
+        },
+        {
+          "problem": "A store receives 18 boxes of books with 25 books each. They already had 127 books. How many books do they have now?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 101.0137026309967,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 101.0137026309967
+          }
+        },
+        {
+          "problem": "A container had 246 marbles. 89 marbles were removed. How many marbles are still in the container?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 101.9335081577301,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 101.9335081577301
+          }
+        },
+        {
+          "problem": "There are 192 marbles to be put into bags of 16 each. How many bags will be needed?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 102.16656374931335,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 102.16656374931335
+          }
+        },
+        {
+          "problem": "A school had 523 pencils. Students used 278 pencils. How many pencils are left?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 102.31825160980225,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 102.31825160980225
+          }
+        },
+        {
+          "problem": "A school has 16 classrooms with 28 desks each and 8 special rooms with 12 desks each. How many desks in total?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 102.0606141090393,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 102.0606141090393
+          }
+        },
+        {
+          "problem": "A company has 234 employees. If 67 employees work from home and the remaining employees are divided equally among 5 offices, how many employees work in each office?",
+          "error": "max() iterable argument is empty",
+          "success": false,
+          "timeout": false,
+          "processing_time": 102.35377931594849,
+          "used_calculator": false,
+          "latencies": {
+            "end_to_end": 102.35377931594849
+          }
+        }
+      ],
+      "timestamp": "2026-11-13T08:55:43.729292"
+    }
+  ],
+  "summary": {
+    "total_batches_completed": 8,
+    "max_throughput": 1.2461356924777882,
+    "min_throughput": 0.03809255052355388,
+    "avg_throughput": 0.41803327023923714,
+    "optimal_batch_size": 128,
+    "throughput_vs_batch_size": [
+      [
+        1,
+        0.03809255052355388
+      ],
+      [
+        2,
+        0.077229619691669
+      ],
+      [
+        4,
+        0.14914459780410455
+      ],
+      [
+        8,
+        0.16582705835362943
+      ],
+      [
+        16,
+        0.29964465498381304
+      ],
+      [
+        32,
+        0.5263643903214971
+      ],
+      [
+        64,
+        0.8418275977578419
+      ],
+      [
+        128,
+        1.2461356924777882
+      ]
+    ]
+  },
+  "completed": true
+}
