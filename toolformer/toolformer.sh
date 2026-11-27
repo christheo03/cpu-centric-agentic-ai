@@ -2,7 +2,7 @@
 #SBATCH --job-name=toolformer_test
 #SBATCH --partition=GPU
 #SBATCH --gres=gpu:1
-#SBATCH --cpus-per-task=20            # 24 CPU cores
+#SBATCH --cpus-per-task=16            # 24 CPU cores
 #SBATCH --mem=64G                    # 64GB RAM
 #SBATCH --time=01:30:00              # 
 #SBATCH --output=toolformer_eval_%j.log
@@ -38,7 +38,6 @@ export HF_HOME="$HOME/.cache/huggingface"
 export HF_HUB_CACHE="$HOME/.cache/huggingface/hub"
 export TRANSFORMERS_CACHE="$HOME/.cache/huggingface/transformers"
 export VLLM_CACHE_ROOT="$HOME/.cache/vllm"
-export VLLM_ATTENTION_BACKEND=TRITON_ATTN
 
 
 # 4. Spin up the background vLLM engine with an explicit local download path flag
